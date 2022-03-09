@@ -1,2 +1,2 @@
-# M3_facultyfeedbackpage_application
-This application will help to higher officials of the educational institutions and the particular mentor about their status in their respective colleges 
+# M3_AirlineReservationSystem_application
+This application will help to the customers of booking both domestic and international flights through our application
