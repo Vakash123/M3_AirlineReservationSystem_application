@@ -20,7 +20,7 @@ public class InternationalFlight extends JFrame
 		c.setLayout(new BorderLayout());
 		String[] sItem1={"Vijayawada"};
 		//String[] sItem2={"Bangkok","Bali","CapeTown","Cairo","Dubai","Chicago","HongKong","Frankfurt","London","Istanbul","Melbourne","LosAngeles","Paris","New York","Rome","Sanfransisco","Singapore","shangha","Toronto","Sydney"};
-		String[] sItem3={"Economic","Business"};
+		//String[] sItem3={"Economic","Business"};
 
 		this.type1 = type1;
 		PPanel1 = new JPanel(null);
@@ -198,7 +198,7 @@ class button2 implements ActionListener
 					{
 						iPrice = Integer.parseInt((String)type1.row4[i][2]);
 //						sTime = (String)type1.row4[i][3];
-						break;
+//						break;
 					}
 					i++;
 				}
@@ -230,7 +230,7 @@ class button2 implements ActionListener
 //read from data
 			Save1 save1;
 			ObjectInputStream OIS1 = new ObjectInputStream(new FileInputStream("save1"));
-			do
+		/*	do
 			{
 //				save1 = (Save1)OIS1.readObject();
 				sTempFrom[iCount] = save1.sFrom;
@@ -250,7 +250,7 @@ class button2 implements ActionListener
 			}while(save1!=null);
 			OIS1.close();
 
-		}
+		} */
 		catch(Exception e1)
 		{
 		}
