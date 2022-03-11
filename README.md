@@ -3,7 +3,7 @@ This application will help to the customers of booking both domestic and interna
 
 # Login Crefentials to run the application
 * UserName - akash
-* password - akash
+* Password - akash
 
 # High Level Requirement 
 |ID|Description|Status|
