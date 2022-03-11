@@ -18,8 +18,8 @@ public class InternationalFlight extends JFrame
 	{
 		Container c =getContentPane();
 		c.setLayout(new BorderLayout());
-		String[] sItem1={"Trivandrum"};
-		String[] sItem2={"Bali","Bangkok","Cairo","CapeTown","Chicago","Dubai","Frankfurt","HongKong","Istanbul","London","LosAngeles","Melbourne","New York","Paris","Rome","SanFrancisco","shanghai","Singapore","Sydney","Toronto"};
+		String[] sItem1={"Vijayawada"};
+		String[] sItem2={"Bangkok","Bali","CapeTown","Cairo","Dubai","Chicago","HongKong","Frankfurt","London","Istanbul","Melbourne","LosAngeles","Paris","New York","Rome","Sanfransisco","Singapore","shangha","Toronto","Sydney"};
 		String[] sItem3={"Economic","Business"};
 
 		this.type1 = type1;
