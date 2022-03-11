@@ -22,7 +22,7 @@ public class InternationalFlight extends JFrame
 		//String[] sItem2={"Bangkok","Bali","CapeTown","Cairo","Dubai","Chicago","HongKong","Frankfurt","London","Istanbul","Melbourne","LosAngeles","Paris","New York","Rome","Sanfransisco","Singapore","shangha","Toronto","Sydney"};
 		//String[] sItem3={"Economic","Business"};
 
-		this.type1 = type1;
+		//this.type1 = type1;
 		PPanel1 = new JPanel(null);
 		PPanel1.setPreferredSize(new Dimension(500,200));
 
@@ -190,7 +190,7 @@ class button2 implements ActionListener
 		}
 		else
 		{
-			try
+			/*try
 			{
 				while(i<20)
 				{
@@ -199,7 +199,7 @@ class button2 implements ActionListener
 						iPrice = Integer.parseInt((String)type1.row4[i][2]);
 //						sTime = (String)type1.row4[i][3];
 //						break;
-					}
+					}//
 					i++;
 				}
 			}catch(Exception e1)
@@ -207,7 +207,7 @@ class button2 implements ActionListener
 				JOptionPane.showMessageDialog(null, "You have no rights to access it");
 				System.exit(0);
 			}
-		}
+		}*/
 		type.setTitle(iPrice + " " + sTime);
 
 		iPrice = (iPrice*iAdult)+(iPrice*(iChildren/2));
