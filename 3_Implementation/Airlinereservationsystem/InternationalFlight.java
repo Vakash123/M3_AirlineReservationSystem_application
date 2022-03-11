@@ -19,7 +19,7 @@ public class InternationalFlight extends JFrame
 		Container c =getContentPane();
 		c.setLayout(new BorderLayout());
 		String[] sItem1={"Vijayawada"};
-		String[] sItem2={"Bangkok","Bali","CapeTown","Cairo","Dubai","Chicago","HongKong","Frankfurt","London","Istanbul","Melbourne","LosAngeles","Paris","New York","Rome","Sanfransisco","Singapore","shangha","Toronto","Sydney"};
+		//String[] sItem2={"Bangkok","Bali","CapeTown","Cairo","Dubai","Chicago","HongKong","Frankfurt","London","Istanbul","Melbourne","LosAngeles","Paris","New York","Rome","Sanfransisco","Singapore","shangha","Toronto","Sydney"};
 		String[] sItem3={"Economic","Business"};
 
 		this.type1 = type1;
@@ -148,11 +148,11 @@ class button2 implements ActionListener
 {
 	InternationalFlight type;
 	LoginPage type1;
-	button2(InternationalFlight type, LoginPage type1)
-	{
-		this.type = type;
-		this.type1 = type1;
-	}
+//	button2(InternationalFlight type, LoginPage type1)
+//	{
+//		this.type = type;
+//		this.type1 = type1;
+//	}
 	public void actionPerformed(ActionEvent e)
 	{
 		String sFrom = (String)type.CBFrom.getSelectedItem();
@@ -197,7 +197,7 @@ class button2 implements ActionListener
 					if(type1.row2[i][1].equals(sTo))
 					{
 						iPrice = Integer.parseInt((String)type1.row4[i][2]);
-						sTime = (String)type1.row4[i][3];
+//						sTime = (String)type1.row4[i][3];
 						break;
 					}
 					i++;
@@ -232,7 +232,7 @@ class button2 implements ActionListener
 			ObjectInputStream OIS1 = new ObjectInputStream(new FileInputStream("save1"));
 			do
 			{
-				save1 = (Save1)OIS1.readObject();
+//				save1 = (Save1)OIS1.readObject();
 				sTempFrom[iCount] = save1.sFrom;
 				sTempTo[iCount] = save1.sTo;
 				sTempClass[iCount] = save1.sClass;
