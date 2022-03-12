@@ -19,12 +19,12 @@ public class InternationalFlight extends JFrame
 		Container c =getContentPane();
 		c.setLayout(new BorderLayout());
 		String[] sItem1={"Vijayawada"};
-		//String[] sItem2={"Bangkok","Bali","CapeTown","Cairo","Dubai","Chicago","HongKong","Frankfurt","London","Istanbul","Melbourne","LosAngeles","Paris","New York","Rome","Sanfransisco","Singapore","shangha","Toronto","Sydney"};
-		//String[] sItem3={"Economic","Business"};
+		String[] sItem2={"Bangkok","Bali","CapeTown","Cairo","Dubai","Chicago","HongKong","Frankfurt","London","Istanbul","Melbourne","LosAngeles","Paris","New York","Rome","Sanfransisco","Singapore","shangha","Toronto","Sydney"};
+		String[] sItem3={"Economic","Business"};
 
-		//this.type1 = type1;
-		//PPanel1 = new JPanel(null);
-		//PPanel1.setPreferredSize(new Dimension(500,200));
+		this.type1 = type1;
+		PPanel1 = new JPanel(null);
+		PPanel1.setPreferredSize(new Dimension(500,200));
 
 		LBookingDetails = new JLabel("<html><b><font color=\"#C71585\">Booking Details</font></b></html>");
 		LFrom = new JLabel("From          :");
@@ -38,7 +38,7 @@ public class InternationalFlight extends JFrame
 
 		TFBookingDate = new JTextField(10);
 		LDate = new JLabel("(DD/MM/YYYY)");
-		LDate.setForeground(Color.red);
+		LDate.setForeground(Color.orange);
 
 		img1=new ImageIcon("map1.jpg");
 		LImg1 = new JLabel(img1);
@@ -148,19 +148,11 @@ class button2 implements ActionListener
 {
 	InternationalFlight type;
 	LoginPage type1;
-<<<<<<< HEAD
-/*	button2(InternationalFlight type, LoginPage type1)
-	{
-		this.type = type;
-		this.type1 = type1;
-	}*/
-=======
 	button2(InternationalFlight type, LoginPage type1)
 	{
 		this.type = type;
 		this.type1 = type1;
 	}
->>>>>>> b4980f808fedd75af03dd0e936861f80c66d791c
 	public void actionPerformed(ActionEvent e)
 	{
 		String sFrom = (String)type.CBFrom.getSelectedItem();
@@ -207,7 +199,7 @@ class button2 implements ActionListener
 						iPrice = Integer.parseInt((String)type1.row4[i][2]);
 						sTime = (String)type1.row4[i][3];
 						break;
-					}//
+					}
 					i++;
 				}
 			}catch(Exception e1)
@@ -215,7 +207,7 @@ class button2 implements ActionListener
 				JOptionPane.showMessageDialog(null, "You have no rights to access it");
 				System.exit(0);
 			}
-		}*/
+		}
 		type.setTitle(iPrice + " " + sTime);
 
 		iPrice = (iPrice*iAdult)+(iPrice*(iChildren/2));
@@ -235,16 +227,12 @@ class button2 implements ActionListener
 
 		try
 		{
-//read from data
+
 			Save1 save1;
 			ObjectInputStream OIS1 = new ObjectInputStream(new FileInputStream("save1"));
 			do
 			{
-<<<<<<< HEAD
-/*				save1 = (Save1)OIS1.readObject();
-=======
 				save1 = (Save1)OIS1.readObject();
->>>>>>> b4980f808fedd75af03dd0e936861f80c66d791c
 				sTempFrom[iCount] = save1.sFrom;
 				sTempTo[iCount] = save1.sTo;
 				sTempClass[iCount] = save1.sClass;
@@ -262,7 +250,7 @@ class button2 implements ActionListener
 			}while(save1!=null);
 			OIS1.close();
 
-		} */
+		}
 		catch(Exception e1)
 		{
 		}
@@ -281,7 +269,7 @@ class button2 implements ActionListener
 				new PrintTicket1(sFrom, sTo, sClass, iAdult, iChildren, iInfant, sBookingDate, iPrice, sTime);
 			try
 			{
-//write into data
+
 				Save1 save2=new Save1(sFrom, sTo, sClass, iAdult, iChildren, iInfant, sBookingDate, iPrice, sTime);
 				ObjectOutputStream OOS1 = new ObjectOutputStream(new FileOutputStream("save1"));
 				for(i=0;i<iCount;i++)
