@@ -56,11 +56,11 @@ The Airline Reservation System project is an implementation of a general Airline
       
 
 #  4W's and 1H 
-  What - This application is used to book the tickets of the flights  
-  Where - In an application software (using Jframe, Eclipse and Visual Studio Code)
-  Why - To make a visibilbe the list of flights to book in an application
-  When - 05-03-2022
-  How - using java compiler I had designed this code
+  * What - This application is used to book the tickets of the flights  
+  * Where - In an application software (using Jframe, Eclipse and Visual Studio Code)
+  * Why - To make a visibilbe the list of flights to book in an application
+  * When - 05-03-2022
+  * How - using java compiler I had designed this code
          
 # Best Methods follows
  * If a user had type wrong user name and password then the pop will raise as invalid password 
