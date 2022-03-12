@@ -19,12 +19,12 @@ public class InternationalFlight extends JFrame
 		Container c =getContentPane();
 		c.setLayout(new BorderLayout());
 		String[] sItem1={"Vijayawada"};
-		//String[] sItem2={"Bangkok","Bali","CapeTown","Cairo","Dubai","Chicago","HongKong","Frankfurt","London","Istanbul","Melbourne","LosAngeles","Paris","New York","Rome","Sanfransisco","Singapore","shangha","Toronto","Sydney"};
-		//String[] sItem3={"Economic","Business"};
+		String[] sItem2={"Bangkok","Bali","CapeTown","Cairo","Dubai","Chicago","HongKong","Frankfurt","London","Istanbul","Melbourne","LosAngeles","Paris","New York","Rome","Sanfransisco","Singapore","shangha","Toronto","Sydney"};
+		String[] sItem3={"Economic","Business"};
 
-		//this.type1 = type1;
-		//PPanel1 = new JPanel(null);
-		//PPanel1.setPreferredSize(new Dimension(500,200));
+		this.type1 = type1;
+		PPanel1 = new JPanel(null);
+		PPanel1.setPreferredSize(new Dimension(500,200));
 
 		LBookingDetails = new JLabel("<html><b><font color=\"#C71585\">Booking Details</font></b></html>");
 		LFrom = new JLabel("From          :");
@@ -148,11 +148,11 @@ class button2 implements ActionListener
 {
 	InternationalFlight type;
 	LoginPage type1;
-//	button2(InternationalFlight type, LoginPage type1)
-//	{
-//		this.type = type;
-//		this.type1 = type1;
-//	}
+/*	button2(InternationalFlight type, LoginPage type1)
+	{
+		this.type = type;
+		this.type1 = type1;
+	}*/
 	public void actionPerformed(ActionEvent e)
 	{
 		String sFrom = (String)type.CBFrom.getSelectedItem();
@@ -190,7 +190,7 @@ class button2 implements ActionListener
 		}
 		else
 		{
-			/*try
+			try
 			{
 				while(i<20)
 				{
@@ -230,9 +230,9 @@ class button2 implements ActionListener
 //read from data
 			Save1 save1;
 			ObjectInputStream OIS1 = new ObjectInputStream(new FileInputStream("save1"));
-		/*	do
+			do
 			{
-//				save1 = (Save1)OIS1.readObject();
+/*				save1 = (Save1)OIS1.readObject();
 				sTempFrom[iCount] = save1.sFrom;
 				sTempTo[iCount] = save1.sTo;
 				sTempClass[iCount] = save1.sClass;
