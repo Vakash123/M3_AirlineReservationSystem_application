@@ -148,11 +148,19 @@ class button2 implements ActionListener
 {
 	InternationalFlight type;
 	LoginPage type1;
+<<<<<<< HEAD
 /*	button2(InternationalFlight type, LoginPage type1)
 	{
 		this.type = type;
 		this.type1 = type1;
 	}*/
+=======
+	button2(InternationalFlight type, LoginPage type1)
+	{
+		this.type = type;
+		this.type1 = type1;
+	}
+>>>>>>> b4980f808fedd75af03dd0e936861f80c66d791c
 	public void actionPerformed(ActionEvent e)
 	{
 		String sFrom = (String)type.CBFrom.getSelectedItem();
@@ -197,8 +205,8 @@ class button2 implements ActionListener
 					if(type1.row2[i][1].equals(sTo))
 					{
 						iPrice = Integer.parseInt((String)type1.row4[i][2]);
-//						sTime = (String)type1.row4[i][3];
-//						break;
+						sTime = (String)type1.row4[i][3];
+						break;
 					}//
 					i++;
 				}
@@ -232,7 +240,11 @@ class button2 implements ActionListener
 			ObjectInputStream OIS1 = new ObjectInputStream(new FileInputStream("save1"));
 			do
 			{
+<<<<<<< HEAD
 /*				save1 = (Save1)OIS1.readObject();
+=======
+				save1 = (Save1)OIS1.readObject();
+>>>>>>> b4980f808fedd75af03dd0e936861f80c66d791c
 				sTempFrom[iCount] = save1.sFrom;
 				sTempTo[iCount] = save1.sTo;
 				sTempClass[iCount] = save1.sClass;

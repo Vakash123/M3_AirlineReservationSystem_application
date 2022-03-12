@@ -56,11 +56,15 @@ The Airline Reservation System project is an implementation of a general Airline
       
 
 #  4W's and 1H 
-  What - This application is used to book the tickets of the flights  
-  Where - In an application software (using Jframe, Eclipse and Visual Studio Code)
-  Why - To make a visibilbe the list of flights to book in an application
-  When - 05-03-2022
-  How - using java compiler I had designed this code
+  * What - This application is used to book the tickets of the flights  
+  * Where - In an application software (using Jframe, Eclipse and Visual Studio Code)
+  * Why - To make a visibilbe the list of flights to book in an application
+  * When - 05-03-2022
+  * How - using java compiler I had designed this code
          
 # Best Methods follows
-
+ * If a user had type wrong user name and password then the pop will raise as invalid password 
+ * If the seats are filled >60 then the pop up raises that the seats are filled and no seats avaliable
+ * If the seats are <60 then the pop up rasises that seats are avaliable. need to book a seat
+ * We can see the flight details in the login window itself 
+ * Designed both Domestic and international flights in same software
