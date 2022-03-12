@@ -20,3 +20,16 @@ Test Plan | Description | Expected I/P | Expected O/P | Actual O/P | Type of Tes
 | LowLevel_07| Ticket is | <60 | Tickets avaliable | tickets are avaliable, Need to book |Avaliable|
 
 
+# Output pics 
+
+![buisness class list of flights domestic](https://user-images.githubusercontent.com/82767035/158029162-a3b994a1-efea-4b73-b602-5ef35c07bdb8.png)
+![domestic flights page](https://user-images.githubusercontent.com/82767035/158029164-0c484bc2-16e6-4fb7-9d0e-52deac39636a.png)
+![economic class list of flights ](https://user-images.githubusercontent.com/82767035/158029165-ed709318-8fc7-4547-aa49-4ca08f6e0318.png)
+![highlevelreq](https://user-images.githubusercontent.com/82767035/158029167-f04994e2-c7d7-43ad-bf80-540e135bda7e.png)
+![international flights list](https://user-images.githubusercontent.com/82767035/158029168-fd17c4e8-68fd-4113-989b-828a0243b38b.png)
+![international flights page](https://user-images.githubusercontent.com/82767035/158029170-9f75661f-3ec0-4854-aea0-d1e989f34ff3.png)
+![login page](https://user-images.githubusercontent.com/82767035/158029172-63a1fa13-ce17-4185-95fb-4b4ac2ed0958.png)
+![avaliability of seats](https://user-images.githubusercontent.com/82767035/158029173-1d6195a7-c784-4587-a5cd-9ad04dbe7c0b.png)
+
+
+
