@@ -19,12 +19,12 @@ public class InternationalFlight extends JFrame
 		Container c =getContentPane();
 		c.setLayout(new BorderLayout());
 		String[] sItem1={"Vijayawada"};
-		//String[] sItem2={"Bangkok","Bali","CapeTown","Cairo","Dubai","Chicago","HongKong","Frankfurt","London","Istanbul","Melbourne","LosAngeles","Paris","New York","Rome","Sanfransisco","Singapore","shangha","Toronto","Sydney"};
-		//String[] sItem3={"Economic","Business"};
+		String[] sItem2={"Bangkok","Bali","CapeTown","Cairo","Dubai","Chicago","HongKong","Frankfurt","London","Istanbul","Melbourne","LosAngeles","Paris","New York","Rome","Sanfransisco","Singapore","shangha","Toronto","Sydney"};
+		String[] sItem3={"Economic","Business"};
 
-		//this.type1 = type1;
-		//PPanel1 = new JPanel(null);
-		//PPanel1.setPreferredSize(new Dimension(500,200));
+		this.type1 = type1;
+		PPanel1 = new JPanel(null);
+		PPanel1.setPreferredSize(new Dimension(500,200));
 
 		LBookingDetails = new JLabel("<html><b><font color=\"#C71585\">Booking Details</font></b></html>");
 		LFrom = new JLabel("From          :");
