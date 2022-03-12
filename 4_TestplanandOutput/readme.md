@@ -41,7 +41,7 @@ Test Plan | Description | Expected I/P | Expected O/P | Actual O/P | Type of Tes
 ![international flights page](https://user-images.githubusercontent.com/82767035/158029170-9f75661f-3ec0-4854-aea0-d1e989f34ff3.png)
 
 # International Flights buisness class list
-
+![international flight buisness class list](https://user-images.githubusercontent.com/82767035/158029984-be9f573b-ab15-4bfc-9ef0-6170451507df.png)
 
 # login Page 
 ![login page](https://user-images.githubusercontent.com/82767035/158029172-63a1fa13-ce17-4185-95fb-4b4ac2ed0958.png)
@@ -50,4 +50,5 @@ Test Plan | Description | Expected I/P | Expected O/P | Actual O/P | Type of Tes
 ![avaliability of seats](https://user-images.githubusercontent.com/82767035/158029173-1d6195a7-c784-4587-a5cd-9ad04dbe7c0b.png)
 
 # Invalid login details
+![invalid username](https://user-images.githubusercontent.com/82767035/158030047-b55c8e38-674a-424f-9030-2c3c2c5f6b5f.png)
 
