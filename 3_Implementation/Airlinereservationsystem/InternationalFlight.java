@@ -23,8 +23,8 @@ public class InternationalFlight extends JFrame
 		//String[] sItem3={"Economic","Business"};
 
 		//this.type1 = type1;
-		PPanel1 = new JPanel(null);
-		PPanel1.setPreferredSize(new Dimension(500,200));
+		//PPanel1 = new JPanel(null);
+		//PPanel1.setPreferredSize(new Dimension(500,200));
 
 		LBookingDetails = new JLabel("<html><b><font color=\"#C71585\">Booking Details</font></b></html>");
 		LFrom = new JLabel("From          :");
