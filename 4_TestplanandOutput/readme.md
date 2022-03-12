@@ -40,11 +40,14 @@ Test Plan | Description | Expected I/P | Expected O/P | Actual O/P | Type of Tes
 # International flights form
 ![international flights page](https://user-images.githubusercontent.com/82767035/158029170-9f75661f-3ec0-4854-aea0-d1e989f34ff3.png)
 
+# International Flights buisness class list
+
+
 # login Page 
 ![login page](https://user-images.githubusercontent.com/82767035/158029172-63a1fa13-ce17-4185-95fb-4b4ac2ed0958.png)
 
 # Seats avaliable
 ![avaliability of seats](https://user-images.githubusercontent.com/82767035/158029173-1d6195a7-c784-4587-a5cd-9ad04dbe7c0b.png)
 
-
+# Invalid login details
 
