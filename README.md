@@ -1,6 +1,11 @@
 Codiga badge:
 ![](https://api.codiga.io/project/30948/status/svg)
+[![cppcheck-action](https://github.com/Vakash123/M1_Projectgoal_employee_record_system_software/actions/workflows/a-cpp.yml/badge.svg)](https://github.com/Vakash123/M1_Projectgoal_employee_record_system_software/actions/workflows/a-cpp.yml)
+![](https://api.codiga.io/project/30948/score/svg)
+[![Git-Inspector](https://github.com/Vakash123/M1_Projectgoal_employee_record_system_software/actions/workflows/Git-Inspector.yml/badge.svg)](https://github.com/Vakash123/M1_Projectgoal_employee_record_system_software/actions/workflows/Git-Inspector.yml)
+[![Build-Windows](https://github.com/Vakash123/M1_Projectgoal_employee_record_system_software/actions/workflows/Build-Windows.yml/badge.svg)](https://github.com/Vakash123/M1_Projectgoal_employee_record_system_software/actions/workflows/Build-Windows.yml)
 
+[![CI](https://github.com/Vakash123/M1_Projectgoal_employee_record_system_software/actions/workflows/CI.yml/badge.svg)](https://github.com/Vakash123/M1_Projectgoal_employee_record_system_software/actions/workflows/CI.yml) [![Valgrind1](https://github.com/Vakash123/M1_Projectgoal_employee_record_system_software/actions/workflows/Valgrind1.yml/badge.svg)](https://github.com/Vakash123/M1_Projectgoal_employee_record_system_software/actions/workflows/Unit_Testing.yml/badge.svg)]
 # M3_AirlineReservationSystem_application
 This application will help the customers of booking both domestic and international flights through our application
 
